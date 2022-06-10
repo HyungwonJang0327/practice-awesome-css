@@ -3,12 +3,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 500px;
+  min-height: 1000px;
+  background-color: rgb(68, 68, 68);
+  color: lightgray;
   .mainTitle {
     width: 50%;
     text-align: center;
     padding: 30px;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid black;
+    font-size: 30px;
   }
   .mainItems {
     display: flex;
@@ -24,13 +27,16 @@
       justify-content: center;
       align-items: center;
       margin: 5px;
-      width: 153px;
-      height: 153px;
-      border: 2px solid skyblue;
+      width: 220px;
+      height: 220px;
+      border: 2px solid gray;
       img {
-        margin-top: 20px;
+        margin: 20px 0;
         width: 70px;
         height: 100px;
+      }
+      p {
+        font-size: 18px;
       }
     }
   }

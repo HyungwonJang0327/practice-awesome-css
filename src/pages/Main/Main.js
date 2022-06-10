@@ -9,33 +9,44 @@ const Main = () => {
       <div className="mainTitle">Main</div>
       <div className="mainItems">
         <div className="mainItem" onClick={() => navigate("/isometricMenu")}>
-          <p>IsometricMenu</p>
+          <p>Isometric menu</p>
           <img src="/CSSImages/IsometricMenu.png" alt="IsometricMenu" />
+          <p>22. 06. 09</p>
         </div>
         <div
           className="mainItem"
           onClick={() => navigate("/glowingBtnHoverEffects")}
         >
-          <p style={{ fontSize: "13px" }}>Glowing Btn Hover Effects</p>
+          <p>
+            Glowing button <br /> hover effects
+          </p>
           <img
             src="/CSSImages/GlowingBtnHoverEffects.png"
             alt="GlowingBtnHoverEffects"
           />
+          <p>22. 06. 10</p>
         </div>
-        <div className="mainItem">undefined</div>
-        <div className="mainItem">undefined</div>
-        <div className="mainItem">undefined</div>
-        <div className="mainItem">undefined</div>
-        <div className="mainItem">undefined</div>
-        <div className="mainItem">undefined</div>
-        <div className="mainItem">undefined</div>
-        <div className="mainItem">undefined</div>
-        <div className="mainItem">undefined</div>
-        <div className="mainItem">undefined</div>
-        <div className="mainItem">undefined</div>
-        <div className="mainItem">undefined</div>
-        <div className="mainItem">undefined</div>
-        <div className="mainItem">undefined</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
+        <div className="mainItem">loading...</div>
       </div>
     </div>
   );
