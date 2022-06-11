@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GlowingBtnHoverEffects from "./pages/GlowingBtnHoverEffects/GlowingBtnHoverEffects";
 import IsometricMenu from "./pages/IsometricMenu/IsometricMenu";
+import LoginPage from "./pages/LoginPage/LoginPage";
 import Main from "./pages/Main/Main";
 import ProgressBar from "./pages/ProgressBar/ProgressBar";
 import "./styles/reset.css";
@@ -17,6 +18,7 @@ const Router = () => {
           element={<GlowingBtnHoverEffects />}
         />
         <Route path="/progressBar" element={<ProgressBar />} />
+        <Route path="/loginpage" element={<LoginPage />} />
       </Routes>
     </BrowserRouter>
   );
