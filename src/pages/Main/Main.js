@@ -26,6 +26,11 @@ const Main = () => {
           />
           <p>22. 06. 10</p>
         </div>
+        <div className="mainItem" onClick={() => navigate("/progressBar")}>
+          <p>Progress Bar</p>
+          <img src="/CSSImages/progressBar.png" alt="progressBar" />
+          <p>22. 06. 11</p>
+        </div>
         <div className="mainItem">loading...</div>
         <div className="mainItem">loading...</div>
         <div className="mainItem">loading...</div>

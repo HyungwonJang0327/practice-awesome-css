@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GlowingBtnHoverEffects from "./pages/GlowingBtnHoverEffects/GlowingBtnHoverEffects";
 import IsometricMenu from "./pages/IsometricMenu/IsometricMenu";
 import Main from "./pages/Main/Main";
+import ProgressBar from "./pages/ProgressBar/ProgressBar";
 import "./styles/reset.css";
 
 const Router = () => {
@@ -15,6 +16,7 @@ const Router = () => {
           path="/glowingBtnHoverEffects"
           element={<GlowingBtnHoverEffects />}
         />
+        <Route path="/progressBar" element={<ProgressBar />} />
       </Routes>
     </BrowserRouter>
   );
