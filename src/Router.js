@@ -4,6 +4,7 @@ import GlowingBtnHoverEffects from "./pages/GlowingBtnHoverEffects/GlowingBtnHov
 import IsometricMenu from "./pages/IsometricMenu/IsometricMenu";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import Main from "./pages/Main/Main";
+import NavMenu from "./pages/NavMenu/NavMenu";
 import ProgressBar from "./pages/ProgressBar/ProgressBar";
 import "./styles/reset.css";
 
@@ -19,6 +20,7 @@ const Router = () => {
         />
         <Route path="/progressBar" element={<ProgressBar />} />
         <Route path="/loginpage" element={<LoginPage />} />
+        <Route path="/navmenu" element={<NavMenu />} />
       </Routes>
     </BrowserRouter>
   );

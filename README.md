@@ -31,3 +31,11 @@ https://www.youtube.com/watch?v=V_G1WzPjb4o
 ## Login Page
 
 https://www.youtube.com/watch?v=OzFDIqOYaAA&t=128s
+
+---
+
+### 2022 06 14
+
+## Nav Menu
+
+https://www.youtube.com/watch?v=qzMy7yC9QvM&t=283s
