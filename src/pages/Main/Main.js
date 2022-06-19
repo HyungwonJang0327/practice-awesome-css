@@ -36,7 +36,14 @@ const Main = () => {
           <img src="/CSSImages/LoginPage.png" alt="progressBar" />
           <p>22. 06. 11</p>
         </div>
-        <div className="mainItem">loading...</div>
+        <div className="mainItem" onClick={() => navigate("/inputanimation")}>
+          <p>Input field text animation</p>
+          <img
+            src="/CSSImages/InputTextAnimation.png"
+            alt="InputTextAnimation"
+          />
+          <p>22. 06. 19</p>
+        </div>
         <div className="mainItem">loading...</div>
         <div className="mainItem">loading...</div>
         <div className="mainItem">loading...</div>

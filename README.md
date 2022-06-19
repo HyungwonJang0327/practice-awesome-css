@@ -39,3 +39,13 @@ https://www.youtube.com/watch?v=OzFDIqOYaAA&t=128s
 ## Nav Menu
 
 https://www.youtube.com/watch?v=qzMy7yC9QvM&t=283s
+
+---
+
+### 2022 06 19
+
+## Input field text animation
+
+https://www.youtube.com/watch?v=BMphVl9suxA
+
+---

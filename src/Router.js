@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GlowingBtnHoverEffects from "./pages/GlowingBtnHoverEffects/GlowingBtnHoverEffects";
+import InputTextAnimation from "./pages/InputTextAnimation/InputTextAnimation";
 import IsometricMenu from "./pages/IsometricMenu/IsometricMenu";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import Main from "./pages/Main/Main";
@@ -21,6 +22,7 @@ const Router = () => {
         <Route path="/progressBar" element={<ProgressBar />} />
         <Route path="/loginpage" element={<LoginPage />} />
         <Route path="/navmenu" element={<NavMenu />} />
+        <Route path="/inputanimation" element={<InputTextAnimation />} />
       </Routes>
     </BrowserRouter>
   );
