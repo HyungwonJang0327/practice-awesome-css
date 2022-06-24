@@ -49,3 +49,13 @@ https://www.youtube.com/watch?v=qzMy7yC9QvM&t=283s
 https://www.youtube.com/watch?v=BMphVl9suxA
 
 ---
+### 2022 06 24
+
+## Water Drop Effects
+
+https://www.youtube.com/watch?v=GnllGn9Oifs
+
+box-shadow 속성 안먹히는 이슈 발생
+추후 수정 예정
+
+---

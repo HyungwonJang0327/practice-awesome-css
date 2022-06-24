@@ -1,0 +1,58 @@
+#waterDropEffect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #1d2b3a;
+  p {
+    color: white;
+  }
+  .cssItem {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #fff;
+    .drop {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      width: 150px;
+      height: 150px;
+      border: 1px solid red;
+      box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
+        inset -10px -10px -15px rgba(255, 255, 255, 0.9) 15px 25px 10px rgba(0, 0, 0, 0.05),
+        15px 20px 20px rgba(0, 0, 0, 0.05);
+      border-radius: 50%;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 35px;
+        left: 25px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #000;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        top: 25px;
+        left: 50px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: red;
+      }
+      i {
+        font-size: 5em;
+        color: #444;
+      }
+    }
+  }
+}

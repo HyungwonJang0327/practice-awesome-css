@@ -44,7 +44,11 @@ const Main = () => {
           />
           <p>22. 06. 19</p>
         </div>
-        <div className="mainItem">loading...</div>
+        <div className="mainItem" onClick={() => navigate("/waterdropeffect")}>
+          <p>Water Drop Effect</p>
+          <img src="/CSSImages/notWaterDropEffect.png" alt="waterdropeffect" />
+          <p>22. 06. 24</p>
+        </div>
         <div className="mainItem">loading...</div>
         <div className="mainItem">loading...</div>
         <div className="mainItem">loading...</div>

@@ -7,6 +7,7 @@ import LoginPage from "./pages/LoginPage/LoginPage";
 import Main from "./pages/Main/Main";
 import NavMenu from "./pages/NavMenu/NavMenu";
 import ProgressBar from "./pages/ProgressBar/ProgressBar";
+import WaterDropEffect from "./pages/WaterDropEffect/WaterDropEffect";
 import "./styles/reset.css";
 
 const Router = () => {
@@ -23,6 +24,7 @@ const Router = () => {
         <Route path="/loginpage" element={<LoginPage />} />
         <Route path="/navmenu" element={<NavMenu />} />
         <Route path="/inputanimation" element={<InputTextAnimation />} />
+        <Route path="/waterdropeffect" element={<WaterDropEffect />} />
       </Routes>
     </BrowserRouter>
   );
